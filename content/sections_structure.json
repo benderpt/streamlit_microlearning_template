@@ -1,71 +1,60 @@
 [
     {
-        "title": "Análise da avaliabilidade de políticas 🎓",
         "text": "Olá! Nesta sessão de micro-aprendizagem, vamos apresentar o conceito de análise de avaliabilidade. Recorrendo a um exemplo prático e ficcional, ficará a saber em que consiste, bem como a sua função e utilidade.",
-        "image_path": "content/Assets/cover.png",
-        "button_text": "Começar a explorar a análise da avaliabilidade"
-    },
-    {
-        "title": "Programa Amigos Robóticos para Idosos🤖",
-        "text": "Uma pequena cidade apresentou um novo programa que vai disponibilizar robôs aos idosos para promover a atividade física, assistindo-os nos seus passeios. O Presidente da Câmara explicou que esta iniciativa é um passo importante na melhoria da qualidade de vida dos idosos, proporcionando-lhes companhia e assistência nas suas atividades ao ar livre e motivação para se manterem ativos.",
+        "lottie": "content/Assets/section1.json",
         "image_path": "content/Assets/section1.png",
-        "button_text": "Continuar"
+        "button_text": "Start"
     },
     {
-        "title": "Como funciona o Programa 🤖",
-        "text": "Deslize o cursor para explorar como funciona o programa.",
-        "explanation": "O programa pretende :green-background[disponibilizar os robôs aos idosos da cidade], :red-background[ no pressuposto de que podem incentivá-los a praticarem atividade física de maneira mais segura como resultado] e isso tenha um :blue-background[impacto positivo na sáude dos utilizadores]. Os robôs são programados para interagir de forma amigável, acompanhando, conversando e dando apoio aos idosos durante os seus passeios. Além disso, ajudam a monitorizar a saúde dos participantes e podem enviar alertas aos cuidadores, familiares e serviços de emergência em caso de necessidade. A ideia é que, ao sentirem-se mais seguros e acompanhados, os idosos fiquem mais motivados a adotar um estilo de vida ativo, o que contribuirá para a diminuição do seu isolamento social e para a sua saúde física e mental.",
-        "script_path": "scripts/section1.py",
-        "button_text": "Continuar"
-    },
-    {
-        "title": "Dimensões da análise da avaliabilidade 📋",
-        "question_multiple": "O programa prevê a realização de uma avaliação no final do terceiro ano de implementação para se decidir sobre a sua continuidade. Para isso, o Presidente e a Avaliadora desejam realizar uma análise de avaliabilidade ao Programa Amigos Robóticos para Idosos, de modo a garantir que no momento da avaliação estão reunidas as melhores condições para a sua realização. Entre as dimensões de análise seguintes, quais considera que podem fazer parte da análise de avaliabilidade?",
+        "title": "Definition of Data",
+        "text": "Data can be defined as a :blue-background[unit of information]. \nOk, but there's more to this simple definition. Think of data as the smallest social object, the basic building block used to create meaning. Data is social because it must already be encoded in a way that others can understand. For example, light itself is not data until it is measured and recorded.",
         "image_path": "content/Assets/section2.png",
+        "button_text": "Continue"
+    },
+    {
+        "title": "What Requisites Must Data Have?",
+        "question_multiple": "What are the key requisites that data must have?",
+        "image_path": "content/Assets/section3.png",
         "explanations": {
-            "A lógica do programa": "é essencial na análise de avaliabilidade. Refere-se ao modelo lógico ou teoria da programação e inclui objetivos, atividades previstas, recursos, resultados e impactos esperados, e a relação entre esses elementos.",
-            "Recolha, qualidade e disponibilidade dos dados necessários para a avaliação": "são fundamentais para a análise de avaliabilidade porque sem dados confiáveis, atualizados, relevantes e acessíveis não é possível avaliar adequadamente os objetivos e resultados do programa.",
-            "Condições institucionais": "referem-se ao ambiente organizacional e político que pode influenciar a avaliação. Fatores como apoio institucional, consenso sobre os objetivos e utilidade da avaliação, além dos recursos disponíveis – financeiros, humanos e de tempo – são cruciais para a viabilidade e sucesso da avaliação.",
-            "Capacidade de os robôs executarem passos de dança, garantindo que os idosos podem desfrutar de entretenimento e atividades recreativas": "está incorreto. Embora o entretenimento e as atividades recreativas possam fazer parte do programa, a capacidade dos robôs dançarem não é uma dimensão da análise de avaliabilidade."
+            "Value": "Data must have value, which represents its informational dimension. This means it must be encoded and decoded in a way that can be understood. Without this property, information cannot be communicated or interpreted effectively. In informational theory, value is what allows data to be usable and meaningful for further processing and analysis",
+            "Registry": "Data must have a material dimension, meaning it needs to be recorded and stored in some form, whether digitally or physically. There is no such thing as ethereal data; even data in transit is represented as a signal. This registry ensures that data exists in a tangible form that can be retrieved and analyzed.",
+            "Number": "Not all data needs to be numerical. While numbers can be data, other forms of data include text, images, and more.",
+            "Observation": "Data must have a connection to reality. This can be through direct observation or derivation from existing data. Without a connection to reality, data is merely a random unit with no meaningful context. Even synthetic data, which is artificially generated, must be based on patterns and insights derived from real observations."
         },
         "options": [
-            "A lógica do programa",
-            "Recolha, qualidade e disponibilidade dos dados necessários para a avaliação",
-            "Condições institucionais",
-            "Capacidade de os robôs executarem passos de dança, garantindo que os idosos podem desfrutar de entretenimento e atividades recreativas"
+            "Value",
+            "Registry",
+            "Number",
+            "Observation"
         ],
         "answer": [
-            "A lógica do programa",
-            "Recolha, qualidade e disponibilidade dos dados necessários para a avaliação",
-            "Condições institucionais"
+            "Value",
+            "Registry",
+            "Observation"
         ],
-        "button_answer": "Continuar"
+        "button_answer": "Continue"
     },    
     {
-        "title": "Dimensões da análise da Avaliabilidade 📚",
-        "text": "Depois de decidir realizar uma análise de avaliabilidade, o presidente e o avaliador precisam considerar três componentes principais: :blue-background[teoria], :orange-background[prática] e :green-background[utilidade e interesse]. :blue-background[A teoria avalia se existe um raciocínio claro que articule como e em que condições as atividades influenciam a mudança]. :orange-background[A prática verifica se existem dados disponíveis para avaliar o mérito ou o valor da intervenção]. :green-background[A utilidade e interesse determinam se há interesse dos decisores políticos em utilizar os resultados e recomendações da avaliação.]",
-        "image_path": "content/Assets/section5.png",
-        "button_text": "Avançar"
+        "title": "Dimensions of Data",
+        "text": ":blue-background[Data is a social process that starts with an observation], grounding it in reality through measurements or recordings. Without observation, data is just a random number, disconnected from any real-world context. :blue-background[It must then hold value, embodying its informational dimension by being encoded in a way that can be decoded and understood]. Without value, it becomes meaningless symbols, failing to convey any information. Finally, :blue-background[data requires a registry, giving it a material dimension through proper recording and storage]. Without a registry, it remains ephemeral and cannot be retrieved or analyzed.",
+        "image_path": "content/Assets/section4.png",
+        "button_text": "Continue"
     },
     {
-        "title": "Quando fazer uma análise de avaliabilidade 📋",
-        "question_multiple": "Considerando o ciclo de políticas públicas, a análise de avaliabilidade é importante antes, durante ou depois da implementação?",
-        "image_path": "content/Assets/section6.png",
-        "explanations": {
-            "Durante a fase de formulação da política ou antes do início da sua implementação": "Realizar uma análise de avaliabilidade durante a fase de formulação da política ou antes da sua implementação permite identificar potenciais problemas e desafios antes do programa ser implementado e, assim  efetuar ajustamentos e melhorias numa fase inicial, minimizando custos e efeitos adversos mais tarde.",
-            "Antes da fase de avaliação": "A análise de avaliabilidade também pode ser realizada antes da avaliação, mas nesse caso as oportunidades para melhorias são mais limitadas. O foco de uma análise de avaliabilidade nesta fase é verificar a existência de condições para a avaliação no curto prazo e identificar potenciais dificuldades na sua realização.",
-            "Durante a fase de formação da agenda": "não é correto realizar uma análise de avaliabilidade na fase de formação da agenda, que se refere ao estágio inicial em que os problemas sociais são identificados e priorizados para intervenção política. Embora seja importante nesta fase considerar avaliações futuras, uma análise de avaliabilidade exige dados mais concretos sobre a política pública e a sua implementação, que ainda não estão disponíveis."
-        },
+        "title": "Digital Data",
+        "question": "In what year was the first transistor invented?",
+        "image_path": "content/Assets/section5.webp",
+        "explanations": "The invention of the first transistor was a groundbreaking achievement in the field of electronics, :blue-background[developed by John Bardeen, Walter Brattain, and William Shockley at Bell Labs]. This pivotal innovation marked the onset of the semiconductor age and laid the :blue-background[foundation for the era of digital data]. Transistors enabled the creation and processing of digital data, which is :blue-background[characterized by its ability to be read and interpreted by machines]. This machine-readable data transformed various aspects of society, ushering in a :blue-background[new age of intelligibility].",
         "options": [
-            "Durante a fase de formulação da política ou antes do início da sua implementação",
-            "Antes da fase de avaliação",
-            "Durante a fase de formação da agenda"
+            "1945",
+            "1946",
+            "1947",
+            "1948"
         ],
         "answer": [
-            "Durante a fase de formulação da política ou antes do início da sua implementação",
-            "Antes da fase de avaliação"
+            "1947"
         ],
-        "button_answer": "Continuar"
+        "button_answer": "Continue"
     },
     {
         "title": "Em síntese 👩‍🎓",
