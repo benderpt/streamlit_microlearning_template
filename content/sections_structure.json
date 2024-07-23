@@ -1,6 +1,6 @@
 [
     {
-        "text": "Olá! Nesta sessão de micro-aprendizagem, vamos apresentar o conceito de análise de avaliabilidade. Recorrendo a um exemplo prático e ficcional, ficará a saber em que consiste, bem como a sua função e utilidade.",
+        "text": "Welcome to this microlearning session on data. Throughout this journey, we will explore the fundamental concepts of data, its essential requisites, and its evolution from traditional to digital formats. We'll delve into the critical role of the transistor in the digitalization process, understand the exponential growth of digital data, and examine the various types of data that shape our modern world.",
         "lottie": "content/Assets/section1.json",
         "image_path": "content/Assets/section1.png",
         "button_text": "Start"
@@ -13,7 +13,7 @@
     },
     {
         "title": "What Requisites Must Data Have?",
-        "question_multiple": "What are the key requisites that data must have?",
+        "question_multiple": "Let's think for a while What are the key requisites that data must have?",
         "image_path": "content/Assets/section3.png",
         "explanations": {
             "Value": "Data must have value, which represents its informational dimension. This means it must be encoded and decoded in a way that can be understood. Without this property, information cannot be communicated or interpreted effectively. In informational theory, value is what allows data to be usable and meaningful for further processing and analysis",
@@ -42,24 +42,28 @@
     },
     {
         "title": "Digital Data",
-        "question": "In what year was the first transistor invented?",
-        "image_path": "content/Assets/section5.webp",
-        "explanations": "The invention of the first transistor was a groundbreaking achievement in the field of electronics, :blue-background[developed by John Bardeen, Walter Brattain, and William Shockley at Bell Labs]. This pivotal innovation marked the onset of the semiconductor age and laid the :blue-background[foundation for the era of digital data]. Transistors enabled the creation and processing of digital data, which is :blue-background[characterized by its ability to be read and interpreted by machines]. This machine-readable data transformed various aspects of society, ushering in a :blue-background[new age of intelligibility].",
+        "question": "Data, much like language, has always been a fundamental way for humans to encode, store, and communicate information. Traditionally, data was recorded on physical mediums such as paper, stored in vast archives, and communicated through telegraphs and early telephone systems. These methods, while effective, had significant limitations in terms of storage capacity, retrieval speed, and susceptibility to damage. The invention of the transistor revolutionized this process, transforming data into digital data in a societal transformation known as digitalization. This shift allowed for data to be stored and processed electronically, vastly increasing efficiency, accuracy, and accessibility. Do you know what year was the first transistor invented?",
+        "image_path": "content/Assets/section5.jpg",
+        "explanations": "The invention of the first transistor was a groundbreaking achievement in the field of electronics, :blue-background[developed by John Bardeen, Walter Brattain, and William Shockley at Bell Labs]. This pivotal innovation marked the onset of the semiconductor age and laid the :blue-background[foundation for the era of digital data]. Transistors enabled the creation and processing of digital data, which is :blue-background[characterized by its ability to be read and interpreted by machines]. This machine-readable data transformed various aspects of society, ushering in a :blue-background[new age of productivity].",
         "options": [
             "1945",
             "1946",
             "1947",
             "1948"
         ],
-        "answer": [
-            "1947"
-        ],
+        "answer": "1947",
         "button_answer": "Continue"
     },
     {
-        "title": "Em síntese 👩‍🎓",
-        "text": "Nesta sessão de micro-aprendizagem explorámos o :blue-background[conceito de análise de avaliabilidade, as suas funções e utilidade]. Aprendemos que esta análise é essencial para assegurar as condições técnicas e de contexto necessárias à realização de uma avaliação útil e de qualidade. Entre essas condições, estão a plausibilidade da :blue-background[lógica do programa, a disponibilidade de dados e a existência de condições institucionais favoráveis à realização da avaliação]. Também vimos que a análise de avaliabilidade :blue-background[pode ser realizada em vários momentos do ciclo da política pública, designadamente antes ou no início da sua implementação, bem como antes da avaliação propriamente dita]. No caso do Programa Amigos Robóticos para Idosos, a análise de avaliabilidade pode ajudar a garantir que: 1) são viáveis e realistas os objetivos de melhoria da saúde física e mental dos idosos;, 2) estão disponíveis ou são recolhidos atempadamente os dados necessários para avaliar os resultados do programa ; 3) e que o contexto institucional suporta a avaliação.",
-        "image_path": "content/Assets/endsection.png",
-        "button_text": "Concluir"
-    }    
+        "title": "Data growth",
+        "explanations": "This graph illustrates the remarkable growth of digital data within our social systems from 2010 to 2025, measured in zetabytes. :blue-background[A zetabyte, equivalent to one trillion gigabytes], is an astronomical unit of data that underscores the immense scale at which information is being generated and stored. The exponential increase in data generation highlights the profound impact on social processes, driving advancements in technology, communication, and information processing. :blue-background[As digital data proliferates, it transforms how we interact, work, and make decisions, fundamentally altering the landscape of modern society]. This surge in data creation not only reflects the rapid technological progress but also signifies the growing reliance on digital information to shape and understand our world.",
+        "script_path": "scripts/section6.py",
+        "button_text": "Continue"
+    },
+    {
+        "title": "Types of Data",
+        "explanations": "Digital data comes in various forms, each with unique requirements and characteristics. Text, images, audio, and video are all examples of multi-modal data, and each type demands different amounts of storage space, coding techniques, and methods for conveying sensory information. Text data is compact and uses character encoding schemes like ASCII or Unicode. Image data requires more storage and employs compression algorithms like JPEG or PNG. Audio data uses formats like MP3 and AAC for efficient coding. Video data is the most storage-intensive, combining visual and auditory information, and uses compression techniques like H.264 and H.265.",
+        "script_path": "scripts/section7.py",
+        "button_text": "Continue"
+    }      
 ]

@@ -1,6 +1,7 @@
 # scripts/components.py
 import streamlit as st
 import os
+import sys
 import json
 from streamlit_lottie import st_lottie
 
@@ -163,14 +164,15 @@ def render_script_content(section):
         script_module_name = script_name.replace('.py', '')
 
         # Add script directory to the system path
-        import sys
         sys.path.append(script_dir)
 
-        # Import and run the script
-        script_module = __import__(script_module_name)
-        script_module.slider_app()
+        # Read and execute the script
+        with open(script_path) as f:
+            code = f.read()
+            exec(code, globals())
 
-        st.write(section["explanation"])
+        st.divider()
+        st.write(section["explanations"])
 
 def render_navigation_buttons(section):
     """

@@ -24,10 +24,11 @@ def configure_sidebar():
     st.sidebar.divider()
     st.sidebar.subheader("Objectives 🎯")
     st.sidebar.markdown("""
-    Understand the concept of evaluability analysis in the following dimensions: 
-    - Its function
-    - Its advantages
-    - How it is operationalized
+    Understand the fundamental concepts of data in the following dimensions:
+- Its definition and essential requisites
+- The role of the transistor in the digitalization process
+- The exponential growth of digital data
+- The different types of digital data
     """)
     st.sidebar.divider()
     
