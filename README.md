@@ -50,5 +50,28 @@ Contributions are welcome and greatly appreciated. Here's how you can contribute
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-- Your Name – [@your_twitter](https://twitter.com/your_twitter) – hugoalmeidamoreira@gmail.com
+- Your Name – [@your_linkedin](https://www.linkedin.com/in/hugoalmeidamoreira/) – hugoalmeidamoreira@gmail.com
 - Project Link: [https://github.com/ybenderpt/streamlit_quiz_template](https://github.com/benderpt/streamlit_quiz_template)
+
+
+Project Title: streamlit_microlearning_template
+
+Project Description: A streamlit template to create a microlearning session aplication. 
+
+
+
+Features: A list of key features of your app.
+
+Installation Instructions:  it's here (https://github.com/benderpt/streamlit_microlearning_template)
+
+Usage Instructions: Basic instructions on how to use your app. I guess you just need to fork
+
+File Structure: An overview of the main files and directories in your project.
+
+Dependencies: List of dependencies required by your project.
+
+Contributing: Instructions for contributing to your project (if applicable).
+
+License: Information about the license under which your project is distributed.
+
+Contact Information: How users can get in touch with you or the maintainers.
