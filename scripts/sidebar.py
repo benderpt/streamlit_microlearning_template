@@ -24,15 +24,16 @@ def configure_sidebar():
     st.sidebar.divider()
     st.sidebar.subheader("Objectives 🎯")
     st.sidebar.markdown("""
-    Understand the fundamental concepts of data in the following dimensions:
+    Understand concepts of data in the following dimensions:
 - Its definition and essential requisites
-- The role of the transistor in the digitalization process
+- The transistor and the digital revolution
 - The exponential growth of digital data
 - The different types of digital data
     """)
     st.sidebar.divider()
     
-    # Button to reset the session state and restart the application
-    if st.sidebar.button("Restart"):
-        st.session_state.current_section = 0
-        st.rerun()
+    # Display the "Restart" button only if not in the first section
+    if st.session_state.get('current_section', 0) > 0:
+        if st.sidebar.button("Restart"):
+            st.session_state.current_section = 0
+            st.rerun()
