@@ -1,6 +1,6 @@
 [
     {
-        "text": "Welcome to this microlearning session on data. Throughout this journey, we will explore the fundamental concepts of data, its essential requisites, and its evolution from traditional to digital formats. We'll delve into the critical role of the transistor in the digitalization process, understand the exponential growth of digital data, and examine the various types of data that shape our modern world.",
+        "text": "Welcome to this microlearning session on data. Throughout the several sections, we will explore the fundamental concepts of data, its essential requisites, and its evolution from traditional to digital formats. We'll show the role of the transistor in the digitalization process, understand the exponential growth of digital data, and examine the various types of data that shape our modern world.",
         "lottie": "content/Assets/section1.json",
         "image_path": "content/Assets/section1.png",
         "button_text": "Start"
