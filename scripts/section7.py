@@ -35,9 +35,9 @@ if submitted:
     if user_guess == correct_percentage:
         st.success(f"Correct! Video represents approximately 53% of global internet traffic.")
     elif user_guess > correct_percentage:
-        st.info(f"Your guess of {user_guess}% is higher than the actual percentage of {correct_percentage}%.")
+        st.info(f"Your guess of {user_guess}% is higher than the actual percentage.")
     else:
-        st.info(f"Your guess of {user_guess}% is lower than the actual percentage of {correct_percentage}%.")
+        st.info(f"Your guess of {user_guess}% is lower than the actual percentage.")
 
 # Source information
 st.write("""
