@@ -1,7 +1,7 @@
 # streamlit_microlearning_template
 
 ## Project Description
-A Streamlit template to create a microlearning session application.
+A Streamlit template to create a microlearning session application.It can be also a good way to show a report.
 
 ## Features
 - **App based on sections**: Each section has content that can be with or without questions, with controls to verify if answers are correct, advance, go back and if the microlearning session is finished.
