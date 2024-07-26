@@ -21,7 +21,19 @@ A Streamlit template to create a microlearning session application.It can be als
 - **Last section for congratulations and additional information**
 
 ## Installation Instructions
-To install and run the app, clone the repository from [GitHub](https://github.com/benderpt/streamlit_microlearning_template) and fork it.
+To install and run the app, follow these steps:
+1. Clone the repository from [GitHub](https://github.com/benderpt/streamlit_microlearning_template) and fork it.
+2. Install the required dependencies listed in `requirements.txt`.
+
+```bash
+git clone https://github.com/benderpt/streamlit_microlearning_template.git
+cd streamlit_microlearning_template
+pip install -r requirements.txt
+```
+3. Run the Streamlit app.
+```bash
+streamlit run app.py
+```
 
 ## Dependencies
 List of dependencies required is available in `requirements.txt`.
