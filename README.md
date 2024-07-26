@@ -1,45 +1,67 @@
-# Streamlit Quiz App
+# streamlit_microlearning_template
 
-## Introduction
-This project is a simple but interactive quiz application built using Streamlit, ideal for educational purposes or entertainment. It demonstrates how to create an engaging web application with Python.
+## Project Description
+A Streamlit template to create a microlearning session application.
 
 ## Features
-- Dynamic progress tracking
-- Instant feedback on user's answers
-- Cumulative score presented at the end of the quiz
-- Customizable quiz questions and answers
+- **App based on sections**: Each section has content that can be with or without questions, with controls to verify if answers are correct, advance, go back and if the microlearning session is finished.
+- **Section elements**:
+  - Text
+    - Title
+    - Text
+  - Media
+    - Image
+    - Lottie animation
+    - Another Python script
+  - Questions
+    - Single answer question
+    - Multiple answers question
+  - Explanations
+- **Sidebar for additional information**
+- **Last section for congratulations and additional information**
 
-## Prerequisites
-Ensure you have the following installed before starting:
-- Python 3.6 or higher
-- Familiarity with Python and JSON structures
+## Installation Instructions
+To install and run the app, clone the repository from [GitHub](https://github.com/benderpt/streamlit_microlearning_template) and fork it.
 
-## Installation
-Install the required packages using pip:
-pip install streamlit
+## Dependencies
+List of dependencies required is available in `requirements.txt`.
 
-## Setup and Usage
-To get the quiz app running on your local machine:
-1. Clone the repository:
-git clone https://github.com/benderpt/streamlit_quiz_template.git
+## File Structure
+An overview of the main files and directories in your project:
 
-2. Navigate to the project directory:
-cd streamlit_quiz_template
+- `sections_structure.json`: This file controls the content and parameters of each section.
+- `scripts/components.py`: This is a boilerplate file with the functions that control the sections elements behavior.
+- `scripts/endsection.py`: This file controls the content of the last section.
+- `scripts/sidebar.py`: This file controls the sidebar.
+- `app.py`: This is the file to run the app.
 
-3. Run the Streamlit app:
-streamlit run app.py
+## Usage Instructions
+To develop a new section from this template, you should have a microlearning session organized, with media, title, content, and questions.
 
+The `sections_structure.json` file should be edited in which each item represents a section of the session.
 
-# streamlit run app.py
+### Fields available:
 
-## Customizing Your Quiz
-To customize the quiz:
-1. Edit the `content/quiz_data.json` file with your text editor.
-2. Update it with your questions and answers.
-3. Save the changes and refresh the Streamlit app to see your updates.
+- **title**: String field for the title of the section.
+- **text**: String of text for the session.
+- **lottie**: Path to the Lottie animation file.
+- **image_path**: Path to the image file used in the section.
+- **script_path**: Path to the script file executed in the section.
+- **question_multiple**: String for the multiple-choice question.
+- **question**: String for the single selection question asked in the section.
+- **options**: Array of strings representing multiple-choice options.
+- **answer**: A string or array of strings representing correct answers.
+- **explanations**: Object containing detailed explanations of various aspects (key-value pairs).
+- **button_text**: Text for the button displayed in the section.
+
+Your session media can be stored in the `content/Assets` folder.
+
+In the `scripts` folder, you should edit `sidebar.py` and `endsection.py` scripts to customize information. Also in the `scripts` folder, you should add any script you want for a particular section, using `script_path` in the JSON to link.
 
 ## Contributing
+
 Contributions are welcome and greatly appreciated. Here's how you can contribute:
+
 1. Fork the project repository.
 2. Create a new feature branch (`git checkout -b feature/YourAmazingFeature`).
 3. Commit your changes (`git commit -m 'Add some YourAmazingFeature'`).
@@ -47,31 +69,10 @@ Contributions are welcome and greatly appreciated. Here's how you can contribute
 5. Open a new Pull Request.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-- Your Name – [@your_linkedin](https://www.linkedin.com/in/hugoalmeidamoreira/) – hugoalmeidamoreira@gmail.com
-- Project Link: [https://github.com/ybenderpt/streamlit_quiz_template](https://github.com/benderpt/streamlit_quiz_template)
 
-
-Project Title: streamlit_microlearning_template
-
-Project Description: A streamlit template to create a microlearning session aplication. 
-
-
-
-Features: A list of key features of your app.
-
-Installation Instructions:  it's here (https://github.com/benderpt/streamlit_microlearning_template)
-
-Usage Instructions: Basic instructions on how to use your app. I guess you just need to fork
-
-File Structure: An overview of the main files and directories in your project.
-
-Dependencies: List of dependencies required by your project.
-
-Contributing: Instructions for contributing to your project (if applicable).
-
-License: Information about the license under which your project is distributed.
-
-Contact Information: How users can get in touch with you or the maintainers.
+- [LinkedIn](https://www.linkedin.com/in/hugoalmeidamoreira/)
+- [Email](mailto:hugoalmeidamoreira@gmail.com)
