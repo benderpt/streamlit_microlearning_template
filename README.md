@@ -36,7 +36,7 @@ An overview of the main files and directories in your project:
 - `app.py`: This is the file to run the app.
 
 ## Usage Instructions
-To develop a new section from this template, you should have a microlearning session organized, with media, title, content, and questions.
+To develop your microlearning from this template, you should have a microlearning session organized, with media, title, content, and questions.
 
 The `sections_structure.json` file should be edited in which each item represents a section of the session.
 
