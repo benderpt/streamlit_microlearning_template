@@ -21,7 +21,7 @@ def render_single_choice_question(section):
         selected_option = st.radio("Select an option", options)
 
         if selected_option:
-            if st.button(section.get("button_text", "Submit", type="primary")):
+            if st.button(section.get("button_text", "Submit")):
                 st.session_state.response_submitted = True
                 st.session_state.selected_option = selected_option
                 st.experimental_rerun()  # Force a rerun to update the state
@@ -38,7 +38,7 @@ def render_single_choice_question(section):
         # Add columns for buttons
         col1, col2, col3 = st.columns(3)
         with col1:
-            if st.button(section.get("button_answer", "Continue", type="primary")):
+            if st.button(section.get("button_answer", "Continue")):
                 st.session_state.current_section += 1
                 st.session_state.response_submitted = False
                 st.experimental_rerun()
@@ -71,7 +71,7 @@ def render_multiple_choice_question(section):
         )
 
         if selected_options:
-            if st.button(section.get("button_text", "Submit"), type="primary"):
+            if st.button(section.get("button_text", "Submit")):
                 st.session_state.response_submitted = True
                 st.session_state.selected_options = selected_options
                 st.experimental_rerun()  # Force a rerun to update the state
@@ -106,7 +106,7 @@ def render_multiple_choice_question(section):
         # Add columns for buttons
         col1, col2, col3 = st.columns(3)
         with col1:
-            if st.button(section.get("button_answer", "Continue"), type="primary"):
+            if st.button(section.get("button_answer", "Continue")):
                 st.session_state.current_section += 1
                 st.session_state.response_submitted = False
                 st.experimental_rerun()
@@ -185,7 +185,7 @@ def render_navigation_buttons(section):
             st.subheader('', divider='rainbow')
             col1, col2 = st.columns(2)
             with col1:
-                if st.button(section["button_text"], type="primary"):
+                if st.button(section["button_text"]):
                     st.session_state.current_section += 1
                     st.rerun()
             with col2:
